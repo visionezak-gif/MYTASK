@@ -12,14 +12,11 @@ public class NumbersCheck{
 	
 	int largest = number;
 	
-	if(number2 > number){
+	if(number2 > largest){
 	largest = number2;
 	
 	}
 	System.out.println("Largest number = " + largest);
-	//if (number % 2 != 0){
-	//System.out.println("Odd number");
-	//}
 	
 
 	}
